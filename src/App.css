@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sand: #e1b382;
+  --color-sand-shadow: #c89666;
+  --color-night: #2d545e;
+  --color-night-shadow: #12343b;
+
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

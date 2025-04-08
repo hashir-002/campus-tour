@@ -64,7 +64,7 @@ const NavBar = () => {
                     <div className='p-4'>
                         {/* <h2 className='text-xl font-semibold mb-4'>Menu</h2> */}
                         <nav className='space-y-4 text-sand'>
-                            <Link to='#' onClick={toggleNavDrawer} className='block textgray-600 hover:text-sand'>About</Link>
+                            <Link to='/about' onClick={toggleNavDrawer} className='block textgray-600 hover:text-sand'>About</Link>
                             <Link to='#' onClick={toggleNavDrawer} className='block textgray-600 hover:text-sand'>History</Link>
                             <Link to='#' onClick={toggleNavDrawer} className='block textgray-600 hover:text-sand'>Places</Link>
                             <Link to='#' onClick={toggleNavDrawer} className='block textgray-600 hover:text-sand'>Blocks</Link>
